@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: rgb(242, 250, 247);
+}
+
+.nav-bar {
+    position: fixed;
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+   width: 100%;
+   margin: 0 60px 5px 0;
+   padding: 12px 2px 42px 1000px;
+   z-index: 1;
+}
+
+.home {
+   color: white;
+   padding: 20px;  
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content img {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+   margin: 150px 0px 20px 60px;
+}
+
+.about-content h2 {
+    font-size: 35px;
+    color: aquamarine;
+    border-left: aquamarine;
+    margin: 150px 0 20px 0;
+    padding: 0 4px 0 90px;
+}
+.about-content p {
+    font-size: 20px;
+    color: rgb(68, 201, 157);
+    border-left: aquamarine;
+    margin: 180px 170px 20px 0;
+    padding: 0 140px 0 0px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 8px 5px 5px 5px;
+    color: rgb(25, 212, 150);
+    padding: 10px 0 5px 0;
+}
+
+.h2 {
+    color: rgb(75, 202, 160);
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.debate {
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    margin: 5px 8px 5px 8px;
+}
+
+.debate2{  
+    width: 98%;
+    height: 40%;
+    border-radius: 0%;
+    margin: 0px 16px 0px 13px;
+    padding: 15px 0 0 0;
+}
+
+.h2 {
+    color: rgb(91, 170, 91);
+    margin: 40px 5px 5px 5px;
+    text-align: center;
+}
+.discuss {
+    border: 1px solid rgb(153, 241, 212);
+    background-color: rgb(153, 241, 212);
+    margin: 120px 0px 5px 0;
+    padding: 10px 5px 40px 5px;
+}
+div h3 {
+    color: rgb(37, 187, 37);
+    text-decoration: underline;
+    text-align: center;
+    margin: 45px 0 15px 0;
+    font-size: 25px;
+}
+
+div p {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.list {
+margin: 12px 12px 0 67px;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.list img {
+    position: relative;
+    top: 42px;
+    width: 30%;
+   height: 45%;
+    
+}
+
+.list p {
+    position: absolute;
+}
+
+hr {
+    margin-top: 50px;
+    background-color: aquamarine;
+    padding: 2px;
+}
+
+.feedback {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+textarea {
+    margin: 25px 0px  10px 20px;
+    width: 80%;
+    
+}
+
+input {
+    background-color: aquamarine;
+    padding: 4px 15px;
+}
+
+.contact {
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    margin: 80px 0 0 0 ;
+    padding: 10px 0 90px 0;
+    
+}
+
+.cnt {
+    text-align: left;
+    margin: 35px 0 5px 70px;
+    padding-top: 30px;
+}
+
+ul a {
+    color: rgb(206, 96, 173);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    margin: 2px 900px 15px 70px;
+
+}
+li {
+    display: inline;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        
+        background-color: rgb(242, 250, 247);
+    }
+    
+    .nav-bar {
+        position: fixed;
+        border: 1px solid aquamarine;
+        background-color: aquamarine;
+        z-index: 1;
+    }
+    
+    .home {
+       color: white;  
+       margin: 5px 10px 0 0;
+       
+    }
+    
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .abt {
+        width: 30%;
+        height: 70%;
+        margin: 25px 0px 0 7px;
+    }
+
+    .about-content h2 {
+        font-size: 35px;
+        color: aquamarine;
+        border-left: aquamarine;
+        margin: 15px 0 20px 0;
+        padding: 0 4px 0 90px;
+    }
+    .about-content p {
+        font-size: 1.5em;
+        color: rgb(68, 201, 157);
+        border-left: aquamarine;
+        margin: 5px 0px 30px 30px;
+        padding: 0 140px 0 0px;
+        
+    }
+    
+    .hr1 {
+        margin-bottom: 35px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: 8px 5px 5px 5px;
+        color: rgb(25, 212, 150);
+        padding: 10px 0 5px 0;
+    }
+    
+    .h2 {
+        color: rgb(75, 202, 160);
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    
+    .debate {
+        border: 1px solid rgb(86, 182, 150);
+        background-color: rgb(12, 34, 27);
+        margin: 5px 7px 5px 17px;
+    }
+    
+    .debate2{  
+        width: 95%;
+        height: 0%;
+        border-radius: 3%;
+        margin: 0px 1px 0px 11px;
+        padding: 15px 0 0 0;
+    }
+    
+    .h2 {
+        color: rgb(91, 170, 91);
+        margin: 40px 5px 5px 5px;
+        text-align: center;
+    }
+    .discuss {
+        border: 1px solid rgb(153, 241, 212);
+        background-color: rgb(153, 241, 212);
+        margin: 120px 0px 5px 0;
+        padding: 10px 5px 40px 5px;
+    }
+    div h3 {
+        color: rgb(37, 187, 37);
+        text-decoration: underline;
+        text-align: center;
+        margin: 25px 0 8px 0;
+        font-size: 1.5em;
+    }
+    
+    div p {
+        text-align: left;
+        font-size: 1.1em;
+       margin-left: 5px;
+    }
+    
+    .list {
+       display: grid;
+    
+    }
+    
+    .list img {
+        position: relative;
+        top: 42px;
+        width:822%; 
+        height: 80%;
+        margin: 0 0px 0 0px;
+        padding: 5px 10px 0 0px;
+    }
+
+    .pix {
+        margin: 0 0px 0 0px;
+        padding: 5px 0px 0 6px;
+        width: 30%;
+        height: 120%;
+      
+    }
+    
+    .list p {
+        position: absolute;
+    }
+    
+    hr {
+        margin-top: 50px;
+        background-color: aquamarine;
+        padding: 2px;
+    }
+    
+    .feedback {
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    
+    textarea {
+        margin: 25px 0px  10px 20px;
+        width: 50%;
+        
+    }
+    
+    input {
+        background-color: aquamarine;
+        padding: 4px 15px;
+    }
+    
+    .contact {
+        border: 1px solid aquamarine;
+        background-color: aquamarine;
+        margin: 80px 0 0 0 ;
+        padding: 10px 0 90px 0;
+        
+    }
+    
+    .cnt {
+        text-align: left;
+        margin: 35px 0 5px 70px;
+        padding-top: 30px;
+    }
+    
+    ul a {
+        color: rgb(206, 96, 173);
+        font-size: .9em;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+       font-size: 20px;
+         margin: 2px 900px 15px 70px;
+    
+    } 
+
+    li {
+        display: inline;
+    }
+}
